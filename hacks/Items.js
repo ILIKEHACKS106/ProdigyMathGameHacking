@@ -1,5 +1,5 @@
-//Sets the amount of all your currencies to 9 million.
+//Sets the amount of all your items to 1.
 x = PIXI.game.prodigy.player.backpack.data.item
 for (i in x) {
-    x[i] = {"ID": x[i].ID, "N": 9000000}
+    x[i] = {"ID": x[i].ID, "N": 1}
 }
